@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ulysses-protocol",
+  "version": "0.1.0",
+  "description": "Ulysses Protocol: a disciplined debugging methodology. Claude investigates a reported failure with a predict-probe-update loop, an explicit state tracker, precommitted backup probes, a two-stall reconsideration rule, and a minimal fix proven against the original reproducer.",
+  "author": {
+    "name": "Aleph Patroy",
+    "email": "glassBead-tc@proton.me"
+  },
+  "homepage": "https://github.com/glassBead-tc/epiops/tree/main/plugins/ulysses-protocol",
+  "repository": "https://github.com/glassBead-tc/epiops",
+  "keywords": [
+    "debugging",
+    "root-cause",
+    "investigation",
+    "hypothesis",
+    "scientific-method",
+    "epistemics"
+  ]
+}

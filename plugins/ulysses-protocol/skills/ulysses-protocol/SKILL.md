@@ -1,4 +1,14 @@
+---
+name: ulysses-protocol
+description: Disciplined debugging methodology that takes a reported failure to its causal mechanism and a verified minimal fix. Use when the user reports a bug, failing test, crash, regression, flaky behavior, or unexpected output and wants it diagnosed and fixed, or says "debug this", "find the root cause", "why is this failing", "track this down", "investigate this failure", or asks for the Ulysses Protocol. Runs a predict-probe-update loop with an explicit state tracker, precommitted backup probes, a two-stall reconsideration rule, and before/after proof on the original reproducer.
+argument-hint: [failure description]
+---
+
 # Ulysses Protocol — Agent Instructions
+
+Problem statement passed at invocation, if any: $ARGUMENTS
+
+When none is given, take the failure from the surrounding conversation.
 
 Investigate the reported failure, identify its causal mechanism, and verify the smallest justified fix. Keep every probe tied to the original failure.
 

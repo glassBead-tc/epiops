@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "epiops",
+  "description": "Claude Code plugins for operational epistemics: skills that make Claude's reasoning-in-action more disciplined.",
+  "owner": {
+    "name": "Aleph Patroy",
+    "email": "glassBead-tc@proton.me"
+  },
+  "plugins": [
+    {
+      "name": "ulysses-protocol",
+      "description": "Disciplined debugging methodology: predict-probe-update loop with an explicit state tracker, precommitted backup probes, a two-stall reconsideration rule, and a minimal fix proven against the original reproducer.",
+      "author": {
+        "name": "Aleph Patroy"
+      },
+      "category": "development",
+      "source": "./plugins/ulysses-protocol",
+      "homepage": "https://github.com/glassBead-tc/epiops/tree/main/plugins/ulysses-protocol"
+    }
+  ]
+}
